@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "target": "es6",
+        "outDir": "build"
+    },
+    "files": [
+        "tests.ts",
+        "../fetch-tests.ts",
+        "../FreeGeoIP.d.ts"
+    ],
+    "typeRoots": [
+        "../../node_modules/@types"
+    ]
+}

@@ -1,0 +1,4 @@
+*.png
+node_modules/
+build/
+launch.json

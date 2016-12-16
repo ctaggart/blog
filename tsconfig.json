@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "system",
+        "sourceMap": true,
+        "target": "es5",
+        "lib": [ "dom", "es6" ],
+        "outDir": "build"
+    },
+    "files": [
+        "tests.ts",
+        "fetch-tests.ts",
+        "FreeGeoIP.d.ts"
+    ],
+    "typeRoots": [
+        "../node_modules/@types"
+    ]
+}
